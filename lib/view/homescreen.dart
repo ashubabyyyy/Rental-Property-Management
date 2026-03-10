@@ -33,10 +33,10 @@ class Homescreen extends StatelessWidget {
               children: [
                 Expanded(
                   child: dashboardCard(
-                    title: "Total Rooms",
+                    title: "Total Tenants",
                     value: "10",
-                    icon: Icons.home,
-                    color: Colors.blue,
+                    icon: Icons.people,
+                    color: Colors.orange,
                   ),
                 ),
 
@@ -70,10 +70,10 @@ class Homescreen extends StatelessWidget {
 
                 Expanded(
                   child: dashboardCard(
-                    title: "Tenants",
+                    title: "Vacent Rooms",
                     value: "${tenants.length}",
-                    icon: Icons.people,
-                    color: Colors.orange,
+                    icon: Icons.home,
+                    color: Colors.blue,
                   ),
                 ),
               ],
@@ -84,7 +84,7 @@ class Homescreen extends StatelessWidget {
             const Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                "Rooms",
+                "Property Summary",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
@@ -188,20 +188,20 @@ class Homescreen extends StatelessWidget {
 }
 
 final List<Map<String, String>> tenants = [
-  {'room': "Room 101", "name": "Room 1", "rent": "Rs.8000", "status": "Paid"},
+  {'room': "Room 101", "name": "House 1", "rent": "Rs.8000", "status": "Paid"},
   {
     'room': "Room 102",
-    "name": "Room 2",
+    "name": "House 2",
     "rent": "Rs.18000",
     "status": "Pending",
   },
-  {'room': "Room 103", "name": "Room 3", "rent": "Rs.28000", "status": "Paid"},
-  {'room': "Room 104", "name": "Room 4", "rent": "Rs.8000", "status": "Paid"},
+  {'room': "Room 103", "name": "House 3", "rent": "Rs.28000", "status": "Paid"},
+  {'room': "Room 104", "name": "House 4", "rent": "Rs.8000", "status": "Paid"},
   {
     'room': "Room 105",
-    "name": "Room 5",
+    "name": "House 5 5",
     "rent": "Rs.8000",
     "status": "Pending",
   },
-  {'room': "Room 106", "name": "Room 6", "rent": "Rs.8000", "status": "Paid"},
+  {'room': "Room 106", "name": "House 6", "rent": "Rs.8000", "status": "Paid"},
 ];
