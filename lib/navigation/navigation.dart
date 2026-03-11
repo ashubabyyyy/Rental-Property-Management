@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:property_management_app/view/homescreen.dart';
-import 'package:property_management_app/view/house_detail_screen.dart';
+import 'package:property_management_app/view/properties_screen.dart';
 import 'package:property_management_app/view/payment_screen.dart';
 import 'package:property_management_app/view/profile_screen.dart';
 import 'package:property_management_app/view/reports_screen.dart';
@@ -16,7 +16,7 @@ class _NavigationscreenState extends State<Navigationscreen> {
   int _currentIndex = 0;
   final List<Widget> _screens = [
     Homescreen(),
-    HouseDetailScreen(),
+    PropertiesScreen(),
     PaymentScreen(),
     ProfileScreen(),
     ReportsScreen(),

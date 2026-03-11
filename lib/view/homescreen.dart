@@ -33,10 +33,11 @@ class Homescreen extends StatelessWidget {
               children: [
                 Expanded(
                   child: dashboardCard(
-                    title: "Total Tenants",
-                    value: "10",
-                    icon: Icons.people,
-                    color: Colors.orange,
+                    title: "Total Properties",
+                    value: "5",
+                    icon: Icons.house,
+                    color: Colors.blue,
+                    
                   ),
                 ),
 
@@ -70,10 +71,10 @@ class Homescreen extends StatelessWidget {
 
                 Expanded(
                   child: dashboardCard(
-                    title: "Vacent Rooms",
+                    title: "Tenants",
                     value: "${tenants.length}",
-                    icon: Icons.home,
-                    color: Colors.blue,
+                    icon: Icons.people,
+                    color: Colors.orange,
                   ),
                 ),
               ],
