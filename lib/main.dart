@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:property_management_app/navigation/navigation.dart';
 import 'package:property_management_app/sign_in/up/sign_in.dart';
 import 'package:property_management_app/sign_in/up/sign_up.dart';
-import 'package:property_management_app/view/homescreen.dart';
+
 
 void main() {
   runApp(const MyApp());

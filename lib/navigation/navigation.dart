@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:property_management_app/view/homescreen.dart';
+import 'package:property_management_app/view/Dashboard_screen.dart';
 import 'package:property_management_app/view/properties_screen.dart';
 import 'package:property_management_app/view/payment_screen.dart';
 import 'package:property_management_app/view/profile_screen.dart';
@@ -15,7 +15,7 @@ class Navigationscreen extends StatefulWidget {
 class _NavigationscreenState extends State<Navigationscreen> {
   int _currentIndex = 0;
   final List<Widget> _screens = [
-    Homescreen(),
+    DashboardScreen(),
     PropertiesScreen(),
     PaymentScreen(),
     ProfileScreen(),
@@ -46,7 +46,7 @@ class _NavigationscreenState extends State<Navigationscreen> {
             BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
             BottomNavigationBarItem(
               icon: Icon(Icons.house),
-              label: "House Detail",
+              label: "Properties Detail",
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.payment),

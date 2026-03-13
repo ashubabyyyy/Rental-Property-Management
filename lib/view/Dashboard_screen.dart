@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:property_management_app/widget/widgets.dart';
 
-class Homescreen extends StatelessWidget {
-  Homescreen({super.key});
+class DashboardScreen extends StatelessWidget {
+  DashboardScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +37,6 @@ class Homescreen extends StatelessWidget {
                     value: "5",
                     icon: Icons.house,
                     color: Colors.blue,
-                    
                   ),
                 ),
 
